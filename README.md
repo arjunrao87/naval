@@ -5,3 +5,4 @@ Go CLI to crystalize [Naval Ravikant's](https://mobile.twitter.com/naval) wisdom
 ## TODO 
 
 - [ ] API'fy the source of tweets
+- [ ] Create cmd line binary for mac
