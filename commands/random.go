@@ -19,9 +19,8 @@ var randomCmd = &cobra.Command{
 func init() {}
 
 func random(ccmd *cobra.Command, args []string) {
-	var response []string
-	response = helpers.Read()
-	var index = getRandomIndex() % len(response)
+	response := helpers.Read()
+	index := getRandomIndex() % len(response)
 	fmt.Println(response[index])
 }
 
